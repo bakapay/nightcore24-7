@@ -21,7 +21,8 @@ client.on("ready", () => {
 
 client.on("ready", () => {
 client.channels.get("452486931255918613").join().then (connection => {
-const dispatcher = connection.playStream(ytdl('https://www.youtube.com/watch?v=ZlAU_w7-Xp8', { filter: 'audioonly' }))
+connection.playStream(ytdl('https://www.youtube.com/watch?v=ZlAU_w7-Xp8', { filter: 'audioonly' }))
+})
 });
 
 dispatcher.on("end", () => {
