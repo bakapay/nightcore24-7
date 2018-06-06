@@ -31,4 +31,4 @@ onEnd();
 
 });
 
-client.login("NDUxMzgwNTQ5Mzk1ODA4MjY3.DfBH6Q.8fK_nDuE9wHlrtiGRLxFoKmuSZ4")
+client.login(process.env_BOT_TOKEN)
