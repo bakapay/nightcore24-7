@@ -1,2 +1,2 @@
 worker: node index.js
-ffala: npm i ffmpeg
+ffala: npm i --save ffmpeg-binaries
