@@ -4,13 +4,14 @@ const client = new Discord.Client();
 const dispatcher = connection.playStream(ytdl('https://www.youtube.com/watch?v=ZlAU_w7-Xp8', { filter: 'audioonly' }));
 function onEnd() {
 connection.playStream(ytdl('https://www.youtube.com/watch?v=pGzK01Wu8zo', { filter: 'audioonly' }));
+};
 
 client.on("ready", ready => {
 	console.log("ready")
 });
 
   client.on(`ready`, member => {
-        client.user.setActivity(`SOME GOOD MUSIC`, {
+        client.user.setActivity(`SOME NIGHTCORE`, {
         type: "Listening"
     });
 });
