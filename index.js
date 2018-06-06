@@ -13,7 +13,7 @@ client.on("ready", ready => {
 });
 
   client.on(`ready`, member => {
-        client.user.setActivity(`SOME GOOD MUSIC`, {
+        client.user.setActivity(`SOME NIGHTCORE`, {
         type: "Listening"
     });
 });
@@ -23,9 +23,7 @@ client.on("ready", ready => {
 });
 
 client.on("ready", ready => {
-voiceChannel.join().then (connection => {
 connection.playStream(ytdl('https://www.youtube.com/watch?v=ZlAU_w7-Xp8', { filter: 'audioonly' }));
-})
 });
 
 
