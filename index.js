@@ -22,7 +22,7 @@ client.on("ready", ready => {
   client.user.setStatus("dnd")
 });
 
-client.on("ready", ready {
+client.on("ready", ready => {
 voiceChannel.join().then (connection => {
 connection.playStream(ytdl('https://www.youtube.com/watch?v=ZlAU_w7-Xp8', { filter: 'audioonly' }));
 })
