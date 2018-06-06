@@ -18,7 +18,7 @@ client.on("ready", ready => {
     });
 });
 
-client.on("ready", () => {
+client.on("ready", ready => {
   client.user.setStatus("dnd")
 });
 client.on("ready", () {
